@@ -1,0 +1,13 @@
+[ 2026-11-21 22:26:06,685 ] 20 root - INFO - Initiate the data ingestion
+[ 2026-11-21 22:26:18,435 ] 69 root - INFO - Performed train test split on the dataframe
+[ 2026-11-21 22:26:18,435 ] 71 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-11-21 22:26:18,436 ] 79 root - INFO - Exporting train and test file path.
+[ 2026-11-21 22:26:18,522 ] 88 root - INFO - Exported train and test file path.
+[ 2026-11-21 22:26:18,523 ] 22 root - INFO - Data Initiation Completed
+[ 2026-11-21 22:26:18,535 ] 26 root - INFO - Initiate the data Validation
+[ 2026-11-21 22:26:18,610 ] 55 root - INFO - Required number of columns: 31
+[ 2026-11-21 22:26:18,611 ] 59 root - INFO - Dataframe has columns: 31
+[ 2026-11-21 22:26:18,611 ] 55 root - INFO - Required number of columns: 31
+[ 2026-11-21 22:26:18,611 ] 59 root - INFO - Dataframe has columns: 31
+[ 2026-11-21 22:26:18,825 ] 245 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=True, valid_train_file_path='Artifacts\\11_21_2026_22_26_04\\data_validation\\validated\\train.csv', valid_test_file_path='Artifacts\\11_21_2026_22_26_04\\data_validation\\validated\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\11_21_2026_22_26_04\\data_validation\\drift_report\\report.yaml')
+[ 2026-11-21 22:26:18,826 ] 28 root - INFO - data Validation Completed
